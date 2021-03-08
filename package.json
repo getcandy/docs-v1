@@ -1,0 +1,20 @@
+{
+  "name": "getcandy-docs",
+  "version": "0.0.1",
+  "description": "GetCandy Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Glenn",
+    "email": "glenn@getcandy.io"
+  },
+  "repository": "getcandy/docs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-one-click-copy": "^1.0.2"
+  }
+}
