@@ -72,6 +72,7 @@ module.exports = {
             ['', 'Welcome'],
             'getting-started/installation',
             'getting-started/configuration',
+            'getting-started/api-reference',
           ]
         },
         {
@@ -116,6 +117,7 @@ module.exports = {
           children: [
             'misc/reports',
             'misc/settings',
+            'misc/extending',
             'misc/info'
           ]
         }
