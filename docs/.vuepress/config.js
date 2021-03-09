@@ -53,7 +53,7 @@ module.exports = {
         text: 'Hub Guide',
         link: '/hub/'
       },
-      { text: 'API Reference', link: 'https://api-reference.vercel.app/' }
+      { text: 'API Reference', link: 'https://api-reference.getcandy.io/' }
     ],
     sidebar: {
       '/api/': [
