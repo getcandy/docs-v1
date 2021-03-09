@@ -1,8 +1,3 @@
----
-metaTitle: Introduction - API
-lang: en-US
----
-
 # Welcome to GetCandy :tada:
 
 GetCandy is an open source E-Commerce API, written in Laravel and supplied as a composer package. There are no templates to wrestle with, no caching to contend with and no obscure sessions to deal with. Just a straight up RESTful API you can consume with anything that can make HTTP Requests.

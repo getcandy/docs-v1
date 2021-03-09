@@ -124,13 +124,23 @@ module.exports = {
       ],
       '/hub/': [
         {
-          title: 'Hub Guide',
+          title: 'Prologue',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            'prologue/release',
+            'prologue/upgrading',
+            'prologue/contribution',
           ]
-        }
+        },
+        {
+          title: 'Getting Started',
+          collapsable: false,
+          children: [
+            ['', 'Welcome'],
+            'getting-started/installation',
+            'getting-started/troubleshooting',
+          ]
+        },
       ],
     }
   },
