@@ -1,5 +1,7 @@
 # Roadmap
 
+The long and winding road to version 1.0! :smiley:
+
 ## 0.13 Improved Search
 
 Enhancements to the search endpoint to introduce performance improvements by avoiding database loading of resources. Also, moving to a driver-based set-up so we can introduce Meilisearch and MySQL drivers, along with the existing Elasticsearch.
