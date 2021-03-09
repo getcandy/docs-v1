@@ -25,3 +25,11 @@ Currently taxation is very basic. We want to review the way tax rates are used t
 ## 0.18 Discounts
 
 Discounts shouldn't be in the core system, not everyone will use them. We wish to move discounts to an optional package and provide a well documented way to modify basketing pricing.
+
+## 0.19 Inventory
+
+To ensure GetCandy can be reliably connected with inventory stock systems, we want to create standardised approach to storing stock of products in different locations.
+
+## 0.20 Improved Order Management
+
+Currently refunds can be made, but they do NOT relate to a specific order line (or shipping). This update will introduce functionality for handling refunds, exchanges and returns.
