@@ -52,7 +52,8 @@ module.exports = {
       {
         text: 'Hub Guide',
         link: '/hub/'
-      }
+      },
+      { text: 'API Reference', link: 'https://api-reference.vercel.app/' }
     ],
     sidebar: {
       '/api/': [
