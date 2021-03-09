@@ -123,7 +123,7 @@ Lastly, if you are using Elasticsearch we need to create the initial indexes, we
 php artisan candy:categories:reindex
 php artisan candy:products:reindex
 ```
-::: tip You did it!
+::: tip YOU DID IT!
 Congratulations, you've installed the GetCandy API.
 :::
 
