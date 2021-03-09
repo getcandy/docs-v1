@@ -63,6 +63,7 @@ module.exports = {
           children: [
             'prologue/release',
             'prologue/upgrading',
+            'prologue/roadmap',
             'prologue/contribution',
           ]
         },
@@ -74,6 +75,7 @@ module.exports = {
             'getting-started/installation',
             'getting-started/configuration',
             'getting-started/api-reference',
+            'getting-started/api-clients',
           ]
         },
         {
