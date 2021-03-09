@@ -12,8 +12,9 @@ The default search implementation uses Elasticsearch, although this is configura
 
 The GetCandy API is a Laravel package, designed to be easily added to any new or existing Laravel application.
 
-> If you're starting a brand new Laravel application, install by [following their documentation](https://laravel.com/docs/8.x) along with Sanctum as [per the documentation](https://laravel.com/docs/8.x/sanctum)
-
+::: tip
+If you're starting a brand new Laravel application, install by [following their documentation](https://laravel.com/docs/8.x) along with Sanctum as [per the documentation](https://laravel.com/docs/8.x/sanctum)
+:::
 
 ## Installations Steps
 
@@ -122,13 +123,11 @@ Lastly, if you are using Elasticsearch we need to create the initial indexes, we
 php artisan candy:categories:reindex
 php artisan candy:products:reindex
 ```
-[block:callout]
-{
-  "type": "info",
-  "title": "Congratulations, you've installed the GetCandy API"
-}
-[/block]
-### Passport Authentication
+::: tip You did it!
+Congratulations, you've installed the GetCandy API.
+:::
+
+## Passport Authentication
 
 GetCandy was originally built with Passport integrated into the core. [From the Laravel website](https://laravel.com/docs/8.x/passport)
 
