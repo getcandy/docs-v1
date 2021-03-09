@@ -1,15 +1,16 @@
 ---
 home: true
 heroImage: /getcandy_logo.svg
-tagline: GetCandy Documentation
+heroText: GetCandy Documentation
+tagline: Learn how to build a modern headless e-commerce online store
 actionText: Get Started →
 actionLink: /api/
 features:
 - title: Install the API
-  details: Feature 1 Description
+  details:
 - title: Connect the Admin Hub
-  details: Feature 2 Description
+  details:
 - title: Create a Storefront
-  details: Feature 3 Description
+  details:
 footer: Made by GetCandy with ❤️
 ---
