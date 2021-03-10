@@ -2,13 +2,13 @@
 
 The long and winding road to version 1.0! :smiley:
 
-## 0.13 Improved Search
-
-Enhancements to the search endpoint to introduce performance improvements by avoiding database loading of resources. Also, moving to a driver-based set-up so we can introduce Meilisearch and MySQL drivers, along with the existing Elasticsearch.
-
-## 0.14 Payment Packages
+## 0.13 Payment Packages
 
 Payment providers integrations, such as Stripe, will be moved to their own packages. This will allow for installation of individual payment gateways and provide good examples to developers wanting to build their own integrations.
+
+## 0.14 Improved Search
+
+Enhancements to the search endpoint to introduce performance improvements by avoiding database loading of resources. Also, moving to a driver-based set-up so we can introduce Meilisearch and MySQL drivers, along with the existing Elasticsearch.
 
 ## 0.15 Plugin Architecture
 
