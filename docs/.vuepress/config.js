@@ -71,7 +71,8 @@ module.exports = {
           collapsable: false,
           children: [
             ['', 'Welcome'],
-            'getting-started/installation',
+            'getting-started/quick-install',
+            ['getting-started/installation', 'Manual installation'],
             'getting-started/configuration',
             'getting-started/api-reference',
             'getting-started/api-clients',

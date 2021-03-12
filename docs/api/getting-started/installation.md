@@ -27,7 +27,7 @@ $ composer require getcandy/candy-api:^0.11-beta
 Or add this to your `composer.json` file
 
 ```javascript
-"getcandy/candy-api": "^0.11-beta"
+"getcandy/candy-api": "^0.12-beta"
 ```
 
 #### A note on Vimeo uploads
