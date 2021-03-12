@@ -27,7 +27,7 @@ php artisan candy:quick-install
 
 You will be asked if you wish to...
 
-- Install and configure Sanctum or Passport
+- Install and configure Sanctum
 - Install demo data
 - Use MySQL, Meilisearch or Elasticsearch for searching the catalogue
 - Install the hub
