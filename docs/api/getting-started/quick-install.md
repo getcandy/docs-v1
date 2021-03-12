@@ -33,4 +33,4 @@ You will be asked if you wish to...
 - Install the hub
 
 
-
+Once complete you will be provided with the details to access the API and the hub. Enjoy! :tada:
