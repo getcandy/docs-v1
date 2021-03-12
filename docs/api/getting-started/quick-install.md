@@ -2,7 +2,7 @@
 
 GetCandy can be a little tricky to configure for new users of the project, so the quick installation has been developed to get you up and running as quickly as possible. 
 
-When you become more familiar, you can get delve further into the workings.
+When you become more familiar, you can get delve further into the workings and customise to your requirements.
 
 ## Let's go!
 
