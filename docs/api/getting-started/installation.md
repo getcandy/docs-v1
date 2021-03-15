@@ -21,7 +21,7 @@ If you're starting a brand new Laravel application, install by [following their 
 Require the API package
 
 ```bash
-$ composer require getcandy/candy-api:^0.11-beta
+$ composer require getcandy/candy-api:^0.12-beta
 ```
 
 Or add this to your `composer.json` file
