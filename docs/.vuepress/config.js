@@ -43,6 +43,10 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     smoothScroll: true,
+    algolia: {
+      apiKey: '83bfbfd25020e4e230abb7a2c6d94a1c',
+      indexName: 'getcandy'
+    },
     nav: [
       {
         text: 'API Guide',
