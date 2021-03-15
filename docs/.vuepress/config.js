@@ -79,6 +79,7 @@ module.exports = {
             ['', 'Welcome'],
             //'getting-started/quick-install',
             ['getting-started/installation', 'Manual installation'],
+            'getting-started/authentication',
             'getting-started/configuration',
             'getting-started/api-reference',
             'getting-started/api-clients',
