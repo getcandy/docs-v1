@@ -2,17 +2,6 @@
 
 ## v0.11.5
 
-### Upgrading
-
-You must reindex your categories and products by running
-
-`php artisan candy:products:reindex`
-`php artisan candy:categories:reindex`
-
-You should also run migrations
-
-`php artisan migrate`
-
 ### 🐞 Fixes
 * Fixed a missing class on the `SyncWithBasketListener`
 * Fixed an issue where the wrong Eloquent resource was being returned when fetching shipping estimates.
