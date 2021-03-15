@@ -27,6 +27,8 @@ module.exports = {
     ['meta', { name: "theme-color", content: "#ffffff"}]
   ],
 
+  port: 8000,
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
