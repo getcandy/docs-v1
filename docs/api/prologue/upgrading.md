@@ -1,5 +1,5 @@
 # Upgrade Guide
 
-::: tip
-Page content coming soon...
+::: tip Note
+Coming soon...
 :::
