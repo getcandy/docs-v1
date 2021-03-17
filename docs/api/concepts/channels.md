@@ -20,7 +20,7 @@ A good way to do this is to set the header globally, e.g.
 let instance = axios.create({
   headers: {
     common: {
-      'X-CANDY-CHANNEL: 'webstore'
+      'X-CANDY-CHANNEL': 'webstore'
     }
   }
 })
