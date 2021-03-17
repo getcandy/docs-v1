@@ -1,10 +1,6 @@
 # Languages
 
-::: warning ISSUE For Alec
-What is the purpose of having both `lang` and `iso` fields? In the DB `lang` is set to "en", but `iso` is set to "gb" (which isn't a valid ISO language, should be "en"). I would like to present a real-world example.
-:::
-
-Languages in GetCandy are used to help translate attribute data for resources, such as products. Each language's `iso` column must be unique but they can share the same `lang` value.
+Languages in GetCandy are used to help translate attribute data for resources, such as products. Each language's `code` column must be unique.
 
 ::: tip
 You can find a list of ISO Language codes here [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
