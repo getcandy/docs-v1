@@ -43,7 +43,7 @@ People *love* thorough bug reports. I'm not even kidding.
 
 ### Use a Consistent Coding Style
 GetCandy uses StyleCI to keep coding style consistent and will automatically check pull requests.
-To keep your coding style consistent, please stick to [PRS-12](https://www.php-fig.org/psr/psr-12/).
+To keep your coding style consistent, please stick to [Laravel Coding Style](https://laravel.com/docs/8.x/contributions#coding-style).
 
 ### License
 By contributing, you agree that your contributions will be licensed under its Apache License 2.0.
