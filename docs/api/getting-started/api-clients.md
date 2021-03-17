@@ -6,7 +6,7 @@ Once you have your shiny new e-commerce API up and running, you will likely want
 
 Locally you can use tools such as [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/) to connect to your API and make requests manually.
 
-If you are really impatient and want to see something work right now, try hitting the `/root` endpoint to get basic information about your API. If you followed the installation instructions this will be at `http://localhost:8000/api/v1/root`.
+If you are really impatient and want to see something work right now, try hitting the `/` endpoint to get basic information about your API. If you followed the installation instructions this will be at `http://localhost:8000/api/v1/`.
 
 
 ## Connecting to Storefronts
