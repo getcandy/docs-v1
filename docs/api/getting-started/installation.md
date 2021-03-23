@@ -16,7 +16,13 @@ The GetCandy API is a Laravel package, designed to be easily added to any new or
 If you're starting a brand new Laravel application, install by [following their documentation](https://laravel.com/docs/8.x) along with Sanctum as [per the documentation](https://laravel.com/docs/8.x/sanctum)
 :::
 
+::: tip API Boilerplate
+We have created a boilerplate you can fork/clone that has the API with Sanctum preconfigured [https://github.com/getcandy/api-boilerplate](https://github.com/getcandy/api-boilerplate)
+:::
+
 ## Installations Steps
+
+
 
 Require the API package
 
