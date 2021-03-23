@@ -2,7 +2,7 @@
 [[toc]]
 ## v0.12
 ::: tip
-You can see a full list of changes on the [release page](https://github.com/getcandy/candy-api/releases/tag/0.12.0)
+You can see a full list of changes on the [release page](/api/prologue/release.html#v0-12-0)
 :::
 
 Update your `@getcandy/candy-api` dependency to `^0.12`
