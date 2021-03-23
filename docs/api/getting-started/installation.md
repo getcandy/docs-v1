@@ -27,13 +27,13 @@ We have created a boilerplate you can fork/clone that has the API with Sanctum p
 Require the API package
 
 ```bash
-$ composer require getcandy/candy-api:^0.12-beta
+$ composer require getcandy/candy-api:^0.12
 ```
 
 Or add this to your `composer.json` file
 
 ```javascript
-"getcandy/candy-api": "^0.12-beta"
+"getcandy/candy-api": "^0.12"
 ```
 
 #### A note on Vimeo uploads
