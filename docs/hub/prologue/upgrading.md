@@ -160,6 +160,12 @@ export default async function ({ store, route, redirect, $auth }) {
 
 ### Laravel Sanctum Users
 
+Add a new `SANCTUM_URL` entry to your `.env` file.
+
+```
+SANCTUM_URL=http://localhost:8000/api
+```
+
 Replace `@nuxtjs/auth` with the updated Nuxt Auth module.
 
 ``` javascript
