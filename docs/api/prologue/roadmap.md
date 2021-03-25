@@ -37,6 +37,10 @@ Currently we have product variants, but that is quite limiting. We want to be ab
 
 To ensure GetCandy can be reliably connected with inventory stock systems, we want to create standardised approach to storing stock of products in different locations.
 
-## 0.22 Improved Order Management
+## 0.22 Export and Import Data
+
+E-commerce stores can have a lot of products and categories. This update will bring functionality to make importing and exporting data easier via the admin hub.
+
+## 0.23 Improved Order Management
 
 Currently refunds can be made, but they do NOT relate to a specific order line (or shipping). This update will introduce functionality for handling refunds, exchanges and returns.
