@@ -1,5 +1,43 @@
 # Upgrade Guide
 [[toc]]
+
+## v0.12.5
+### Upgrading
+
+Update the GetCandy API package.
+
+```
+composer update getcandy/candy-api
+```
+
+Run any migrations
+
+```
+php artisan migrate
+```
+
+### 🐞 Fixes
+
+- Fixed an issue that caused an un hydrated basket being returned when fetching shipping methods for an order.
+- Fixed an issue when publishing/drafting customer groups that was causing `purchasable` to not get populated correctly.
+- Fixed an issue on the indexer which caused disabled languages to be indexed and if they didn't have a value it would error.
+- Fixed an issue where order shipping or billing details were an empty array on create.
+
+### ⭐ Improvements
+
+- Publishing variant tiers from a draft has been simplified.
+- In the recycle bin, entries are now ordered by the date they were added descending.
+- When uploading an asset via the simple upload endpoint, you can now specify the filesystem disk to use. e.g. `disk=public`
+- When uploading an asset via the simple upload endpoint, you can now specify a path, if blank `uploads` will be the default.
+- When fetching a product you can now specify an SKU in the action.
+- Improved the way product variant tiers were fetched, this now relys on the underlying scope rather than passing through customer group ids.
+
+### 🏗️ Additions
+
+- Added manual flag to transactions
+- Added an `GetCandy\Api\Core\Orders\Events\OrderStatusUpdatedEvent` for when an order status is updated.
+- Added `order_status` key to the order response, this will return an array of details if the status has been matched from the `getcandy.php` config.
+
 ## v0.12
 ::: tip
 You can see a full list of changes on the [release page](/api/prologue/release.html#v0-12-0)
