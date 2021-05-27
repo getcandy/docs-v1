@@ -1,6 +1,10 @@
 # Upgrade Guide
 
 [[toc]]
+## 0.12.11
+
+Update your `@getcandy` dependencies to `0.12.11`
+
 ## 0.12
 
 ::: tip The quick and easy way to update
