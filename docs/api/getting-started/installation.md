@@ -45,7 +45,7 @@ GetCandy supports Vimeo as an asset driver, however to [due to an issue in the r
 "vimeo/laravel": "^5.5"
 ```
 
-### Publish config
+### Publish config and clear cache
 
 Once the package has been added, publish the base config
 
@@ -93,6 +93,10 @@ public function boot()
         // ...
      });
 }
+```
+Also for new routes to load, run:
+```bash
+php artisan optimize
 ```
 
 ### Additional Sanctum configuration
