@@ -50,7 +50,7 @@ module.exports = {
     repo: 'getcandy',
     docsDir: '',
     lastUpdated: false,
-    docsRepo: 'getcandy/docs',
+    docsRepo: 'getcandy/docs-v1',
     docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,
